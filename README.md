@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Ipangram Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1265" alt="Screenshot 2024-05-29 at 7 48 58 AM" src="https://github.com/0205Ankit/ipangram_assignment/assets/90479290/ac0a13c7-16f7-4e7b-b0b6-680f0afa5d9e">
 
-Currently, two official plugins are available:
+  - Deployed Link: https://ipangram-assignment-nine.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup
 
-## Expanding the ESLint configuration
+Follow these steps to set up the project on your local machine:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Clone the Repository:**
 
-- Configure the top-level `parserOptions` property like this:
+   ```bash
+   git clone https://github.com/0205Ankit/ipangram_assignment.git
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+   ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. **Install dependencies and start the project:**
+
+   ```bash
+   # Install dependencies
+    npm install
+
+   # Start the project
+    npm run dev
+
+   ```
